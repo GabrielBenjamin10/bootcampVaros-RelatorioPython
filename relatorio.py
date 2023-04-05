@@ -63,12 +63,12 @@ plt.title('DOLAR')
 load_dotenv()
 
 senha = os.environ.get('password')
-email = 'gabriel.gaspargbg@gmail.com'
+email = 'meuemail@mail.com'
 
 msg = EmailMessage()
 msg['subject'] = 'Relatório IBOV e Dolár com python'
-msg['from'] = 'gabriel.gaspargbg@gmail.com'
-msg['to'] = 'gustasbenjamin@gmail.com'
+msg['from'] = 'meuemail@mail.com'
+msg['to'] = 'seuemail@mail.com'
 msg.set_content(f''' 
 Prezados, segue relatório juntamente com gráficos em anexo
 
